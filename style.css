@@ -2,7 +2,16 @@ body {
     background: linear-gradient(to right, #59b6f8, #d477f8);;
 }
 
-button {
+button.btn2 {
+    position: absolute;
+    margin-left: 910px;
+    width: 80px;
+    height: 40px;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+button.btn  {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -13,8 +22,12 @@ button {
     transform: translate(-50%, -50%);
     width: 600px;
     height: 250px;
-    background-color: black;
+    background: black;
     border-radius: 25px;
+}
+
+.start {
+    background-color: #04b912;
 }
 
 h2 {
